@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    color: #fafafa;
+}
+
+h2 {
+    color: #fafafa;
+}
+
+body {
+    padding-bottom: 60px;
+}
+
+.navbar {
+    z-index: 99;
+}
+
+#project {
+    padding-top: 60px;
+}
+
+label {
+    color: #fafafa;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#project p {
+    font-size: small;
+}
+
+#project {
+    margin-top: 100px;
+}
+
+#project div {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#project div.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 10px rgba(242, 110, 62, 0.921);
+}
